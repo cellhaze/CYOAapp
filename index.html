@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Choose Your Own Adventure</title>
+    <link rel=stylesheet href="style.css">
+</head>
+<body ng-app="storyApp">
+	<div class="leftColumn">
+		<h1>What Happened on <a href="#!/home">Tenth Street</a></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris odio nisi, dapibus eu neque eget, laoreet aliquam nisi. Vestibulum hendrerit magna eget metus finibus, eget consequat odio pretium. Vivamus sapien nisl, varius quis augue et, imperdiet cursus justo. Maecenas rhoncus pulvinar dui ut ultrices. </p>
+                <a href="#!/carlo">CARLO</a>
+                <a href="#!/tiffany">TIFFANY</a>
+                <a href="#!/rynald">RYNALD</a>
+<!--		<div class="nameTag">{{name}}</div>-->
+	</div>
+	<div class="rightColumn">
+        Sample Text
+        <ng-view class="charArea">More Text</ng-view>
+	</div>
+    <script src="angular.min.js"></script>
+    <script src="angular-route.min.js"></script>
+    <script src="storyApp.js"></script>
+</body>
+</html>
