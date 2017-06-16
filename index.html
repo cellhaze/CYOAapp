@@ -7,15 +7,14 @@
 </head>
 <body ng-app="storyApp">
 	<div class="leftColumn">
-		<h1>What Happened on <a href="#!/home">Tenth Street</a></h1>
+		<h1>What Happened on <span class="title"><a href="#!/home">Tenth Street</a></span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris odio nisi, dapibus eu neque eget, laoreet aliquam nisi. Vestibulum hendrerit magna eget metus finibus, eget consequat odio pretium. Vivamus sapien nisl, varius quis augue et, imperdiet cursus justo. Maecenas rhoncus pulvinar dui ut ultrices. </p>
-                <a href="#!/carlo">CARLO</a>
-                <a href="#!/tiffany">TIFFANY</a>
-                <a href="#!/rynald">RYNALD</a>
+            <a class="nav" href="#!/carlo">CARLO</a>
+            <a class="nav" href="#!/tiffany">TIFFANY</a>
+            <a class="nav" href="#!/rynald">RYNALD</a>
 <!--		<div class="nameTag">{{name}}</div>-->
 	</div>
 	<div class="rightColumn">
-        Sample Text
         <ng-view class="charArea">More Text</ng-view>
 	</div>
     <script src="angular.min.js"></script>

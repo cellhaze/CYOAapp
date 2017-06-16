@@ -1,0 +1,55 @@
+p {
+    text-align: left;
+    font-family: serif;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.leftColumn {
+    float: left;
+    display: inline-block;
+    height: 700px;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+}
+
+leftColumn h1, a{
+    text-transform: uppercase;
+}
+
+.leftColumn p {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 6em;
+}
+
+.rightColumn {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    padding: 60px;
+}
+
+.title {
+    display: block;
+}
+
+.nav {
+    display: block;
+    padding: 7px;
+    margin: 4px auto;
+    color: white;
+    background-color: #b5b5b5;
+    width: 10em;
+}
+
+.beginner {
+    font-weight: bold;
+}
