@@ -4,14 +4,14 @@ var app = angular.module("storyApp", ["ngRoute"])
         .when("/home", {
             templateUrl: "home.html"
         })
-        .when("/carlo", {
-            templateUrl: "carlo.html"
+        .when("/carlos", {
+            templateUrl: "carlos.html"
         })
-        .when("/tiffany", {
-            templateUrl: "tiffany.html"
+        .when("/dee", {
+            templateUrl: "dee.html"
         })
-        .when("/rynald", {
-            templateUrl: "rynald.html"
+        .when("/milo", {
+            templateUrl: "milo.html"
         })
         .otherwise({
             templateUrl: "home.html"
